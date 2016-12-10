@@ -1,0 +1,5 @@
+Config files in Config folder
+Rename correctly config files
+simulation output in a dedicated folder?
+Rename all the foiles modules correctly
+Always iport only the class (not the entire module...)

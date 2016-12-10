@@ -1,0 +1,31 @@
+
+Ce dossier contient les codes faisant tourner le serveur sur le RPi.
+
+	- server_lunch.py lance un serveur
+		usage: python3 server_lunch.py [-h] [--log {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
+                       [--no-req-handling] [--no-data-getting]
+	
+	- run_simulation.py lance une simulation: un remote device essayant de se connecter au serveur et renvoyant des donnée de température cohérente.
+
+	- ThermoServer.py contient les classes principales nécessaires au fonctionnement 
+		du serveur
+
+	- utils.py content quelques fonctions utiles et plus génériques
+
+	- arduinoTester.py est un petit script lançant un serveur « générique » et affichant 
+		toutes les requête qu’il intercepte. Il sert à tester les code de communication 
+		des arduinos
+
+	- arduinoSim.py (ex tester.py) simule des arduino.
+
+	- /ProtocolTester contient les codes fournis avec le cahier des charges servant à 
+		simuler des thermostats « tin » et « outside » se connectant au serveur. 
+		Ceux-ci ont très légèrement été modifié pour nous simplifié la tache. Tous 
+		les modification sont marqué par un commentaire « MODIFIED ». Un fichier __init__.py 
+		a été ajouté pour pouvoir aisément importer les fichier et le fichier tester.py a été 
+		déplacé dans le dossier racine et renommé arduinoSim.py
+
+	- data.py est le module utilisé pour stocké les donnée envoyées par les RemoteDevices dans 
+		une base de données.
+
+	- /Doc contient la documentation de tous les codes et du fonctionnement global du système.

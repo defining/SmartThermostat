@@ -1,0 +1,12 @@
+This folder contains a python program that simulates a number of thin
+thermostats with random data. These thin thermostats try to register
+themselves with the central unit, and communicate with it using the
+communication protocol specified in the assignment.
+
+Usage: 
+
+  > python tester.py 
+
+To see possible parameters:
+
+  > python tester.py --help

@@ -1,0 +1,14 @@
+This folder contains a small python program that starts a web server
+that you can access at through a web browser at
+http://localhost:8080. It responds to PUT request to
+http://localhost:8080/register (by just printing out the request that
+it receives) and shows some content upon GET requests to
+http://localhost:8080/dashboard.
+
+It uses the bottle library (http://bottlepy.org/docs/dev/index.html)
+to set up the web server.
+
+Usage: 
+
+  > python server_example.py
+
